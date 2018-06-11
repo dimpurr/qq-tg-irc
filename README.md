@@ -1,7 +1,7 @@
 QQ-Telegram-IRC
 ===
 
-[简体中文版](https://github.com/vjudge1/qq-tg-irc/blob/master/README-hans.md)
+[简体中文版](https://github.com/yangchuansheng/LilyWhiteBot/blob/master/README-hans.md)
 
 在三個（或以上）群組間傳話的機器人。
 
@@ -29,7 +29,7 @@ goto a
 ### 設定QQ機器人
 1. 在正式啟用互聯之前，建議提前註冊一個QQ馬甲，掛機掛到一定等級，並往錢包裡塞一點錢，以減小被騰訊封殺的可能性。不過從實踐情況來看，只有一顆星或不塞錢也無妨。
 2. **下載[酷Q](https://cqp.cc/)**，啟動一下以便完成安裝。
-3. 進入[vjudge1/cqsocketapi](https://github.com/vjudge1/cqsocketapi/releases)，下載org.dazzyd.cqsocketapi.cpk，並放到酷Q的app目錄中。
+3. 進入[yukixz/cqsocketapi](https://github.com/yukixz/cqsocketapi/releases)，下載org.dazzyd.cqsocketapi.cpk，並放到酷Q的app目錄中。
 4. 再次啟動酷Q，登入機器人帳號，然後在插件設定中啟用「cqsocket」。
 5. 根據實際需要修改 badwords.example.js，並改名為 badwords.js。「敏感詞」功能僅對QQ機器人有效。
 6. 請記得定期清除快取。
@@ -61,5 +61,5 @@ IRC沒有什麼特別之處。如果你有Cloak，請在config.js中輸入正確
 
 ### 其他功能
 以下各功能的設定方法均為改config.js。
-* [filter](https://github.com/vjudge1/qq-tg-irc/blob/master/plugins/filter.js)：過濾符合指定規則的訊息。
-* [qqxiaoice](https://github.com/vjudge1/qq-tg-irc/blob/master/plugins/qqxiaoice.js)：召喚QQ群的小冰（備註：需要QQ群群主開啟小冰/BabyQ功能）
+* [filter](https://github.com/yangchuansheng/LilyWhiteBot/blob/master/plugins/filter.js)：過濾符合指定規則的訊息。
+* [qqxiaoice](https://github.com/yangchuansheng/LilyWhiteBot/blob/master/plugins/qqxiaoice.js)：召喚QQ群的小冰（備註：需要QQ群群主開啟小冰/BabyQ功能）
